@@ -1,4 +1,4 @@
-# JavaScript_Development
+# JQuery_Development
 Usage:
 
     Please download "JQuery_Stater_Template".
