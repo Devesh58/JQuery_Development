@@ -23,15 +23,45 @@
     <!--########################START HERE#########################-->
 
     <!-- Inline JQuery -->
+    <p class="lead" onclick="$(this).hide();">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis consequatur debitis et, iste iure reiciendis repudiandae sit suscipit ut. Accusantium alias aliquam aliquid aperiam asperiores aut commodi consequuntur corporis cumque ea fugiat mollitia nam numquam, obcaecati officia omnis quibusdam quo quos repellendus repudiandae? Blanditiis, modi, vero? Harum, magnam sit!</p>
     
 
     <!-- Internal JQuery -->
+    <div class="card" id="blue-card">
+        <div class="card-body bg-primary text-white text-center">
+            <h3 class="card-title">JQuery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis eos labore nemo, optio perspiciatis possimus quisquam veniam! Aliquid dolor eius enim explicabo fugiat ipsa, officia quas quibusdam sed voluptas.</p>
+        </div>
+    </div>
     
+    <!-- External JQuery -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="button" value="HIDE" class="btn btn-success" id="success-button">
+            </div>
+            <div class="col-md-6">
+                <!-- Empty -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card" id="success-card">
+                    <div class="card-body bg-success text-white text-center">
+                        <h3>External JQuery</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores cum delectus doloremque, eaque error excepturi expedita facilis incidunt officia quidem sit, vel velit? Consequatur dolorum facere magnam quod voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Empty -->
+            </div>
+        </div>
+    </div>
 
 
 
-
-
+</div>
 
 
 <div style="margin-top:500px;"></div>
@@ -45,6 +75,10 @@
 <script src="../bootstrap/js/mdb.min.js"></script>
     <script>
         // Internal JQuery here
+        $('#blue-card').click(function () {
+            $('#blue-card').hide();
+        });
     </script>
+    <script src="01_app.js"></script>
 </body>
 </html>
