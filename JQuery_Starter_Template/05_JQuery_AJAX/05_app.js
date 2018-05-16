@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Used for Text formatting
 ------------------------
 <b> - Bold text
@@ -10,3 +11,6 @@ Used for Text formatting
 <ins> - Inserted text
 <sub> - Subscript text
 <sup> - Superscript text
+=======
+
+>>>>>>> 085dd53b7aa88529dbb1f91be7b8c30b0f16d3d3
