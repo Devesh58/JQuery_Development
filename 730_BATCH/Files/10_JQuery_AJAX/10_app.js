@@ -1,5 +1,5 @@
 $('#load-images-btn').click(function() {
-    $.getJSON('db.json',function(data) {
+    $.getJSON('https://gist.githubusercontent.com/thenaveensaggam/eca8fde1b1fceeeb62936ae3a74a1dae/raw/6e33e9c9882d566d20df506f810e3721a0832644/22082018.json',function(data) {
         var contactsList = data.contacts;
         var i = 1;
         var imageSelector = '#image';
